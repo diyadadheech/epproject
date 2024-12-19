@@ -2,68 +2,95 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #4e342e; /* Warm brown text */
+    background-color: #fef4e8; /* Light beige background */
 }
 
 .hero {
-    background-color: #f8f8f8;
-    padding: 20px;
+    background-color: #d2b48c; /* Light brown */
+    padding: 30px;
     text-align: center;
+    color: #fef4e8; /* Beige text */
 }
 
 .logo h1 {
     margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 20px 0 0;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #4e342e; /* Warm brown text */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a67c52; /* Soft brown hover color */
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
 }
 
 h2 {
     text-align: center;
+    font-size: 2rem;
+    color: #8d6e63; /* Muted brown */
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .product-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     padding: 0;
     list-style-type: none;
 }
 
 .product-list li {
-    border: 1px solid #ccc;
-    padding: 10px;
+    border: 1px solid #e0c8a8; /* Light beige border */
+    padding: 15px;
+    background-color: #fffaf3; /* Soft beige background */
     text-align: center;
-    width: 180px;  /* Adjust the width for smaller items */
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(139, 69, 19, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(139, 69, 19, 0.2);
 }
 
 .product-list img {
-    width: 100px;  /* Adjust the size to make the images smaller */
+    width: 120px; /* Slightly larger for visibility */
     height: auto;
     display: block;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    cursor: pointer;  /* Add pointer cursor to indicate it's clickable */
+    cursor: pointer;
+    border-radius: 8px;
 }
 
-/* Modal styles */
 .modal {
     display: none; 
     position: fixed; 
@@ -74,8 +101,7 @@ h2 {
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.9); 
+    background-color: rgba(78, 52, 46, 0.8); /* Warm brown overlay */
 }
 
 .modal-content {
@@ -83,6 +109,8 @@ h2 {
     display: block;
     width: 80%;
     max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .close {
@@ -97,6 +125,7 @@ h2 {
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: #d2b48c; /* Beige hover */
     text-decoration: none;
-[_{{{CITATION{{{_1{](https://github.com/buribalazs/smooth-drag-order/tree/7b40d21d076c3e31765f61481f537beaf4c5ec9f/README.md)[_{{{CITATION{{{_2{](https://github.com/VeraStepanova/HTDOCS/tree/52b17035e8386670fcebf4e25c9d3cad20dfbc46/Uppgift-2%2Findex.php)[_{{{CITATION{{{_3{](https://github.com/g-kelvin/waititu/tree/ebf60e6fad0a1ae0624ff240096a985af81fca61/newspregister.php)[_{{{CITATION{{{_4{](https://github.com/ridwan098/Examination-System/tree/cb6fd9bb3306c7202dc2dc9ad002792e6aba6d6f/firebase-functions%2Fpublic%2FexaminerPageResouces%2FremovePaper.php)[_{{{CITATION{{{_5{](https://github.com/ru7an/ProjectDocumentManagementSystem/tree/1177bf09a7bf81f4906abf0e69f0ed6e770322f1/Pariyojana%2FProject-I%2Ftopbar.php)[_{{{CITATION{{{_6{](https://github.com/Nnamso/backupcode/tree/8eaaf5c765bff53491cd062e76a64f2732fc05c7/agent%2Findex.php)[_{{{CITATION{{{_7{](https://github.com/Shiratasa/ReactPhladRian/tree/1524b5f183f946db2f32909dbbe937fe98411da6/.history%2Ffrontend%2Fsrc%2Fpages%2F3%29Receiver_Main_20210627013746.js)[_{{{CITATION{{{_8{](https://github.com/beduExpert/B1-Programacion-con-Javascript-2020/tree/acd2c8c6ba0195797c479a6656b03014b92965a2/Sesion-08%2FReto-02%2FReadme.md)
+    cursor: pointer;
+}
