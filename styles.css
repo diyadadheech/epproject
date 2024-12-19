@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     color: #333; /* Dark grey text */
-    background-color: #f0f4f8; /* Light grey-blue background */
+    background: linear-gradient(135deg, #F0F4F8, #E5E7EB); /* Light grey-blue to light grey gradient */
 }
 
 header.hero {
     background: linear-gradient(45deg, #1E3A8A, #3B82F6); /* Deep blue to bright blue */
-    color: #f0f4f8; /* Light grey-blue text */
+    color: #F0F4F8; /* Light grey-blue text */
     text-align: center;
     padding: 3rem 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -25,7 +25,7 @@ header .logo h1 {
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #f0f4f8; /* Light grey-blue */
+    color: #F0F4F8; /* Light grey-blue */
 }
 
 nav ul {
@@ -42,7 +42,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #f0f4f8; /* Light grey-blue text */
+    color: #F0F4F8; /* Light grey-blue text */
     font-weight: bold;
     font-size: 1.2rem;
     transition: color 0.3s;
@@ -54,7 +54,7 @@ nav ul li a:hover {
 
 main {
     padding: 3rem;
-    background: #ffffff; /* White background */
+    background: #FFFFFF; /* White background */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
     text-align: center;
@@ -81,9 +81,9 @@ h2 {
 }
 
 .product-list li {
-    border: 1px solid #d1d5db; /* Light grey border */
+    border: 1px solid #D1D5DB; /* Light grey border */
     padding: 20px;
-    background-color: #f9fafb; /* Very light grey background */
+    background-color: #F9FAFB; /* Very light grey background */
     text-align: center;
     width: 220px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
@@ -109,7 +109,7 @@ h2 {
 
 footer {
     background: #1E3A8A; /* Deep blue */
-    color: #f0f4f8; /* Light grey-blue text */
+    color: #F0F4F8; /* Light grey-blue text */
     text-align: center;
     padding: 2rem 0;
     margin-top: 3rem;
@@ -136,14 +136,14 @@ footer {
     max-width: 700px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff; /* White background */
+    background-color: #FFFFFF; /* White background */
 }
 
 .close {
     position: absolute;
     top: 50px;
     right: 35px;
-    color: #f0f4f8; /* Light grey-blue text */
+    color: #F0F4F8; /* Light grey-blue text */
     font-size: 40px;
     font-weight: bold;
     transition: color 0.3s;
