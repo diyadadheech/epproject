@@ -24,11 +24,11 @@ header .logo {
 }
 
 header .logo h1 {
-    margin: 0;
-    font-size: 3rem;
+      margin: 0;
+    font-size: 2.5rem;
     font-weight: bold;
-    letter-spacing: 2px;
-    color: #F0F4F8; /* Light grey-blue */
+    text-transform: uppercase;
+    color: #F0F8FF; /* Alice blue */
 }
 
 nav ul {
