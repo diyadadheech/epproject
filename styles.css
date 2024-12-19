@@ -9,12 +9,14 @@ body {
 }
 
 header.hero {
-    background: linear-gradient(45deg, #4682B4, #A67C52); /* Steel blue to soft brown gradient */
+    background: linear-gradient(45deg, #71A6D2, #4682B4, #A67C52); /* Iceberg to steel blue to soft brown */
     color: #fef4e8; /* Beige text */
     text-align: center;
     padding: 3rem 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
 }
+
+
 
 header .logo {
     display: flex;
