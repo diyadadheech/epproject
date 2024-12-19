@@ -60,4 +60,43 @@ h2 {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;  /* Add pointer cursor to indicate it's clickable */
 }
+
+/* Modal styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+[_{{{CITATION{{{_1{](https://github.com/buribalazs/smooth-drag-order/tree/7b40d21d076c3e31765f61481f537beaf4c5ec9f/README.md)[_{{{CITATION{{{_2{](https://github.com/VeraStepanova/HTDOCS/tree/52b17035e8386670fcebf4e25c9d3cad20dfbc46/Uppgift-2%2Findex.php)[_{{{CITATION{{{_3{](https://github.com/g-kelvin/waititu/tree/ebf60e6fad0a1ae0624ff240096a985af81fca61/newspregister.php)[_{{{CITATION{{{_4{](https://github.com/ridwan098/Examination-System/tree/cb6fd9bb3306c7202dc2dc9ad002792e6aba6d6f/firebase-functions%2Fpublic%2FexaminerPageResouces%2FremovePaper.php)[_{{{CITATION{{{_5{](https://github.com/ru7an/ProjectDocumentManagementSystem/tree/1177bf09a7bf81f4906abf0e69f0ed6e770322f1/Pariyojana%2FProject-I%2Ftopbar.php)[_{{{CITATION{{{_6{](https://github.com/Nnamso/backupcode/tree/8eaaf5c765bff53491cd062e76a64f2732fc05c7/agent%2Findex.php)[_{{{CITATION{{{_7{](https://github.com/Shiratasa/ReactPhladRian/tree/1524b5f183f946db2f32909dbbe937fe98411da6/.history%2Ffrontend%2Fsrc%2Fpages%2F3%29Receiver_Main_20210627013746.js)[_{{{CITATION{{{_8{](https://github.com/beduExpert/B1-Programacion-con-Javascript-2020/tree/acd2c8c6ba0195797c479a6656b03014b92965a2/Sesion-08%2FReto-02%2FReadme.md)
