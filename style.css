@@ -2,15 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #4e342e; /* Warm brown text */
-    background-color: #fef4e8; /* Light beige background */
+    color: #4E342E; /* Deep brown text */
+    background-color: #F5F5DC; /* Beige background */
 }
 
 .hero {
-    background-color: #d2b48c; /* Light brown */
+    background-color: #4682B4; /* Steel Blue */
     padding: 30px;
     text-align: center;
-    color: #fef4e8; /* Beige text */
+    color: #F5F5DC; /* Beige text */
 }
 
 .logo h1 {
@@ -18,6 +18,7 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    color: #71A6D2; /* Iceberg accent */
 }
 
 nav ul {
@@ -34,13 +35,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #4e342e; /* Warm brown text */
+    color: #F5F5DC; /* Beige text */
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #a67c52; /* Soft brown hover color */
+    color: #71A6D2; /* Iceberg hover */
 }
 
 main {
@@ -50,7 +51,7 @@ main {
 h2 {
     text-align: center;
     font-size: 2rem;
-    color: #8d6e63; /* Muted brown */
+    color: #4682B4; /* Steel Blue */
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -65,23 +66,23 @@ h2 {
 }
 
 .product-list li {
-    border: 1px solid #e0c8a8; /* Light beige border */
+    border: 1px solid #B0B0B0; /* Grey border */
     padding: 15px;
-    background-color: #fffaf3; /* Soft beige background */
+    background-color: #F5F5DC; /* Beige background */
     text-align: center;
     width: 200px;
-    box-shadow: 0 4px 8px rgba(139, 69, 19, 0.1);
+    box-shadow: 0 4px 8px rgba(139, 69, 19, 0.1); /* Light brown shadow */
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .product-list li:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(139, 69, 19, 0.2);
+    box-shadow: 0 8px 16px rgba(139, 69, 19, 0.2); /* Deeper brown shadow */
 }
 
 .product-list img {
-    width: 120px; /* Slightly larger for visibility */
+    width: 120px; 
     height: auto;
     display: block;
     margin-top: 15px;
@@ -89,6 +90,7 @@ h2 {
     margin-right: auto;
     cursor: pointer;
     border-radius: 8px;
+    border: 2px solid #71A6D2; /* Iceberg border */
 }
 
 .modal {
@@ -101,7 +103,7 @@ h2 {
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: rgba(78, 52, 46, 0.8); /* Warm brown overlay */
+    background-color: rgba(70, 130, 180, 0.9); /* Steel Blue overlay */
 }
 
 .modal-content {
@@ -117,15 +119,15 @@ h2 {
     position: absolute;
     top: 50px;
     right: 35px;
-    color: #fff;
+    color: #F5F5DC; /* Beige text */
     font-size: 40px;
     font-weight: bold;
-    transition: 0.3s;
+    transition: color 0.3s;
 }
 
 .close:hover,
 .close:focus {
-    color: #d2b48c; /* Beige hover */
+    color: #71A6D2; /* Iceberg hover */
     text-decoration: none;
     cursor: pointer;
 }
