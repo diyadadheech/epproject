@@ -7,11 +7,12 @@ body {
 }
 
 header.hero {
-    background: linear-gradient(45deg, #1E3A8A, #3B82F6); /* Deep blue to bright blue */
-    color: #F0F4F8; /* Light grey-blue text */
+        background: linear-gradient(45deg, #4682B4, #5A9BD3); /* Steel blue to iceberg */
+    color: #FFFFFF; /* White text */
     text-align: center;
     padding: 3rem 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+
 }
 
 header .logo {
