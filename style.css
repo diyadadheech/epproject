@@ -2,27 +2,26 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #4E342E; /* Deep brown text */
-    background: linear-gradient(135deg, #F5F5DC, #71A6D2); /* Beige to Iceberg gradient */
+    color: #333333; /* Neutral dark grey text */
+    background: linear-gradient(135deg, #E5E5E5, #B0C4DE); /* Light grey to light steel blue gradient */
     background-attachment: fixed; /* Parallax effect */
     background-size: cover;
 }
 
 .hero {
-    background: linear-gradient(45deg, #71A6D2, #4682B4, #A67C52); /* Iceberg to steel blue to soft brown */
-    color: #fef4e8; /* Beige text */
+    background: linear-gradient(45deg, #4682B4, #5A9BD3); /* Steel blue to iceberg */
+    color: #FFFFFF; /* White text */
     text-align: center;
     padding: 3rem 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
 }
-
 
 .logo h1 {
     margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #71A6D2; /* Iceberg accent */
+    color: #F0F8FF; /* Alice blue */
 }
 
 nav ul {
@@ -39,18 +38,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #F5F5DC; /* Beige text */
+    color: #FFFFFF; /* White text */
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #71A6D2; /* Iceberg hover */
+    color: #B0C4DE; /* Light steel blue hover */
 }
 
 main {
     padding: 30px;
-    background-color: rgba(245, 245, 220, 0.8); /* Beige overlay for content */
+    background-color: rgba(245, 245, 245, 0.9); /* Light grey overlay */
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -58,7 +57,7 @@ main {
 h2 {
     text-align: center;
     font-size: 2rem;
-    color: #4682B4; /* Steel Blue */
+    color: #4682B4; /* Steel blue */
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -73,23 +72,23 @@ h2 {
 }
 
 .product-list li {
-    border: 1px solid #B0B0B0; /* Grey border */
+    border: 1px solid #D3D3D3; /* Light grey border */
     padding: 15px;
-    background-color: #F5F5DC; /* Beige background */
+    background-color: #F8F8F8; /* Soft white background */
     text-align: center;
     width: 200px;
-    box-shadow: 0 4px 8px rgba(139, 69, 19, 0.1); /* Light brown shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .product-list li:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(139, 69, 19, 0.2); /* Deeper brown shadow */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
 }
 
 .product-list img {
-    width: 120px; 
+    width: 120px;
     height: auto;
     display: block;
     margin-top: 15px;
@@ -97,20 +96,20 @@ h2 {
     margin-right: auto;
     cursor: pointer;
     border-radius: 8px;
-    border: 2px solid #71A6D2; /* Iceberg border */
+    border: 2px solid #4682B4; /* Steel blue border */
 }
 
 .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgba(70, 130, 180, 0.9); /* Steel Blue overlay */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(70, 130, 180, 0.9); /* Steel blue overlay */
 }
 
 .modal-content {
@@ -120,13 +119,14 @@ h2 {
     max-width: 700px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF; /* White background */
 }
 
 .close {
     position: absolute;
     top: 50px;
     right: 35px;
-    color: #F5F5DC; /* Beige text */
+    color: #FFFFFF; /* White text */
     font-size: 40px;
     font-weight: bold;
     transition: color 0.3s;
@@ -134,7 +134,7 @@ h2 {
 
 .close:hover,
 .close:focus {
-    color: #71A6D2; /* Iceberg hover */
+    color: #B0C4DE; /* Light steel blue hover */
     text-decoration: none;
     cursor: pointer;
 }
