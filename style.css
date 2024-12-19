@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 0;
     color: #4E342E; /* Deep brown text */
-    background-color: #F5F5DC; /* Beige background */
+    background: linear-gradient(135deg, #F5F5DC, #71A6D2); /* Beige to Iceberg gradient */
+    background-attachment: fixed; /* Parallax effect */
+    background-size: cover;
 }
 
 .hero {
@@ -11,6 +13,7 @@ body {
     padding: 30px;
     text-align: center;
     color: #F5F5DC; /* Beige text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo h1 {
@@ -46,6 +49,9 @@ nav ul li a:hover {
 
 main {
     padding: 30px;
+    background-color: rgba(245, 245, 220, 0.8); /* Beige overlay for content */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
