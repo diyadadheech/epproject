@@ -153,3 +153,23 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
+#brands {
+    text-align: center; /* Center the content */
+    margin-top: 2rem;
+}
+
+.brand-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the logos */
+    gap: 2rem; /* Space between logos */
+    padding: 0;
+}
+
+.brand-logo {
+    width: 150px; /* Adjust the size of the logos */
+    height: auto;
+    border-radius: 8px; /* Optional: adds rounded corners to logos */
+}
+
